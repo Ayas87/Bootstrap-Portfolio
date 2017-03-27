@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Randy's Portfolio</title>
+</head>
+
+<body>
+    <div class='container-fluid container-style'>
+        <!--Navigation Bar-->
+        <nav class='navbar navbar-default navbar-style'>
+            <!--.navbar-style makes navbar bg white across the whole screen-->
+            <div class='container'>
+                <header class='navbar-header'>
+                    <h1>Randy Lam</h1>
+                </header>
+                <ul class='nav navbar-nav navbar-right'>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--End of Navigation Bar-->
+        <!--Start of Main Content + Sidebar-->
+        <main class='container main-style'>
+            <section class='col-lg-8 col-md-12 main-content'>
+                <section class='main-header'>
+                    <h1>Contact</h1>
+                </section>
+                <div class='main-template'>
+                    <!--Start of Contact-->
+                    <div class='main'>
+                        <form>
+                            <fieldset>
+                                <div class='contact-form'>
+                                    <label class='labelone' for='name'>Name: </label>
+                                    <input name='name' placeholder='John Smith' />
+                                    <label for='email'>Email: </label>
+                                    <input name='email' placeholder='example@gmail.com' />
+                                    <label for='message'>Message: </label>
+                                    <textarea name='message'></textarea>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <input class='btn' type='submit' value='Submit'>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <!--End of Contact-->
+                </div>
+            </section>
+            <aside class='col-lg-3 col-lg-offset-1 col-xs-12 sidebar'>
+                <section class='sidebar-header'>
+                    <h1>Connect With Me</h1>
+                </section>
+                <section class='sidebar-icons'>
+                    <div class='col-xs-4'>
+                        <a href="https://github.com/Ayas87" target='_blank'><img class='img-responsive' src="assets/images/icon-github.png" alt='github'></a>
+                    </div>
+                    <div class='col-xs-4'>
+                        <a href="https://www.linkedin.com/in/randylam87" target='_blank'><img class='img-responsive' src="assets/images/icon-linkedin.png" alt='linkedin'></a>
+                    </div>
+                    <div class='col-xs-4'>
+                        <a href="http://stackexchange.com/users/10136458/randy-lam" target='_blank'><img class='img-responsive' src="assets/images/icon-stack-overflow.png" alt='stack overflow'></a>
+                    </div>
+                </section>
+            </aside>
+        </main>
+        <!--End of Main Content + Sidebar-->
+        <!--Start of Footer-->
+        <footer class="footer">
+            <div class="container">
+                <p class="text-muted footer-style">&copy; Copyright 2017 Randy Lam.</p>
+            </div>
+        </footer>
+        <!--End of Footer-->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="assets/css/bootstrap.css"></script>
+</body>
+
+</html>
