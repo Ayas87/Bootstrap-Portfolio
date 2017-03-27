@@ -160,10 +160,7 @@ body {
 .portfolio-img {
 	position: relative;
 	margin-bottom: 20px;
-}
-
-.portfolio-img a img {
-	margin: 0px;
+	border: 5px solid white; /*this is here because my image is too small by a few pixels so my portfolio text will stick out a little at certain screen size.. the real solution is to get a bigger image or define a width for my img*/
 }
 
 .portfolio-txt {
